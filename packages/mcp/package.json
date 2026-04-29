@@ -1,0 +1,23 @@
+{
+  "name": "ax-dealroom-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for agent-accessible startup deal rooms",
+  "main": "dist/index.js",
+  "bin": {
+    "ax-dealroom-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": ["mcp", "dealroom", "investor", "startup", "ai-agents"],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}

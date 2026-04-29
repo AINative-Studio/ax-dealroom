@@ -1,0 +1,28 @@
+{
+  "company": {
+    "name": "Your Startup Inc",
+    "tagline": "One line that explains what you do",
+    "stage": "Seed",
+    "founded": "2024",
+    "location": "San Francisco, CA"
+  },
+  "raise": {
+    "instrument": "SAFE",
+    "amount_usd": 500000,
+    "cap_usd": 5000000,
+    "discount_pct": 20,
+    "closing_target": "Q2 2026"
+  },
+  "traction": {
+    "arr_usd": 100000,
+    "growth_mom_pct": 15,
+    "runway_months": 12
+  },
+  "team": [
+    { "name": "Jane Founder", "role": "CEO", "bio": "Previously at BigCo. Built X." },
+    { "name": "John Cofounder", "role": "CTO", "bio": "Ex-Google. Open source contributor." }
+  ],
+  "contact": "investors@yourstartup.com",
+  "myterms_url": "https://yourstartup.com/.well-known/myterms.json",
+  "data_handling_policy": "Session metadata (provisioning timestamp, tier reached, NDA acceptance) is retained for 90 days. Not shared with third parties. Investors may request deletion at investors@yourstartup.com."
+}
